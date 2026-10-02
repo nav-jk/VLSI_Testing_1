@@ -1,0 +1,230 @@
+VCD info: dumpfile test12_odd_parity.vcd opened for output.
+===== TEST 12: Odd Parity Correctness =====
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: PARITY bit correct
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+----------------------------------------------------
+TOTAL PASS = 223   TOTAL FAIL = 0
+RESULT: PASS
+----------------------------------------------------
+/home/claude/uart_project/tb/test12_odd_parity.v:45: $finish called at 8790000 (1ps)

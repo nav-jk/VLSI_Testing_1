@@ -1,0 +1,169 @@
+VCD info: dumpfile test14_back_to_back.vcd opened for output.
+===== TEST 14: Back-to-Back Transmission =====
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: ready is high immediately after first frame -> can load again now
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: ready high again after the back-to-back second frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: ready is high immediately after first frame -> can load again now
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: ready high again after the back-to-back second frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx sits at idle-high level the instant before next load
+  PASS: tx transitions straight to new start bit with no glitch cycle
+----------------------------------------------------
+TOTAL PASS = 162   TOTAL FAIL = 0
+RESULT: PASS
+----------------------------------------------------
+/home/claude/uart_project/tb/test14_back_to_back.v:65: $finish called at 5410000 (1ps)

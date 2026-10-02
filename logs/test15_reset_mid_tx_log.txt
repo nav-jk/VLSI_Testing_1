@@ -1,0 +1,228 @@
+VCD info: dumpfile test15_reset_mid_tx.vcd opened for output.
+===== TEST 15: Reset During Active Transmission =====
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: tx forced back to idle-high immediately after reset
+  PASS: busy cleared immediately after reset
+  PASS: ready asserted immediately after reset
+  PASS: done not spuriously asserted by reset
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: idle holds cleanly after reset, no residual FSM activity
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: CORNER: reset while already idle has no adverse effect
+----------------------------------------------------
+TOTAL PASS = 221   TOTAL FAIL = 0
+RESULT: PASS
+----------------------------------------------------
+/home/claude/uart_project/tb/test15_reset_mid_tx.v:89: $finish called at 8960000 (1ps)

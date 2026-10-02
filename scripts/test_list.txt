@@ -1,0 +1,15 @@
+test01_idle_state
+test02_start_bit
+test03_lsb_first
+test04_data_pattern
+test05_stop_bit
+test06_baud_accuracy
+test07_baud_boundary
+test08_busy_flag
+test09_done_pulse
+test10_ready_flag
+test11_even_parity
+test12_odd_parity
+test13_load_while_busy
+test14_back_to_back
+test15_reset_mid_tx

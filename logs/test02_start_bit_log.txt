@@ -1,0 +1,18 @@
+VCD info: dumpfile test02_start_bit.vcd opened for output.
+===== TEST 2: Start Bit Generation =====
+  PASS: DIRECTED: TX goes low the cycle load is serviced
+  PASS: DIRECTED: transitions to data bit0 (=1) after exactly div cycles
+  PASS: DIRECTED: TX low at start even for data=0x00
+  PASS: RANDOM: start bit low for random data/baud_div
+  PASS: RANDOM: start bit low for random data/baud_div
+  PASS: RANDOM: start bit low for random data/baud_div
+  PASS: RANDOM: start bit low for random data/baud_div
+  PASS: RANDOM: start bit low for random data/baud_div
+  PASS: RANDOM: start bit low for random data/baud_div
+  PASS: CORNER: start bit low with minimum baud_div=2
+  PASS: CORNER: start bit low even when baud_div=0 (clamped internally)
+----------------------------------------------------
+TOTAL PASS = 11   TOTAL FAIL = 0
+RESULT: PASS
+----------------------------------------------------
+/home/claude/uart_project/tb/test02_start_bit.v:55: $finish called at 6130000 (1ps)

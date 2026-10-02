@@ -1,0 +1,18 @@
+VCD info: dumpfile test06_baud_accuracy.vcd opened for output.
+===== TEST 6: Baud Rate Accuracy =====
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+  PASS: measured start-bit width equals programmed baud_div
+----------------------------------------------------
+TOTAL PASS = 11   TOTAL FAIL = 0
+RESULT: PASS
+----------------------------------------------------
+/home/claude/uart_project/tb/test06_baud_accuracy.v:62: $finish called at 16850000 (1ps)

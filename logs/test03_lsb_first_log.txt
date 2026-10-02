@@ -1,0 +1,87 @@
+VCD info: dumpfile test03_lsb_first.vcd opened for output.
+===== TEST 3: LSB-First Bit Ordering =====
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+  PASS: bit order: data[i] appears i-th on the line
+----------------------------------------------------
+TOTAL PASS = 80   TOTAL FAIL = 0
+RESULT: PASS
+----------------------------------------------------
+/home/claude/uart_project/tb/test03_lsb_first.v:54: $finish called at 4330000 (1ps)

@@ -1,0 +1,42 @@
+VCD info: dumpfile test05_stop_bit.vcd opened for output.
+===== TEST 5: Stop Bit Generation =====
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: START bit = 0
+  PASS: BUSY asserted at start of frame
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: DATA bit correct (LSB-first order)
+  PASS: STOP bit = 1
+  PASS: BUSY deasserted after frame
+  PASS: READY asserted after frame
+  PASS: DIRECTED: stop bit high right at start of stop period
+  PASS: DIRECTED: stop bit remains high mid-period
+  PASS: RANDOM: stop bit =1 for random data/baud
+  PASS: RANDOM: stop bit =1 for random data/baud
+  PASS: RANDOM: stop bit =1 for random data/baud
+  PASS: RANDOM: stop bit =1 for random data/baud
+  PASS: RANDOM: stop bit =1 for random data/baud
+  PASS: RANDOM: stop bit =1 for random data/baud
+  PASS: CORNER: stop bit correct at minimum baud_div=2
+----------------------------------------------------
+TOTAL PASS = 35   TOTAL FAIL = 0
+RESULT: PASS
+----------------------------------------------------
+/home/claude/uart_project/tb/test05_stop_bit.v:52: $finish called at 6550000 (1ps)
