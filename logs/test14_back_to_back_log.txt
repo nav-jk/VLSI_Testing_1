@@ -1,5 +1,5 @@
 VCD info: dumpfile test14_back_to_back.vcd opened for output.
-===== TEST 14: Back-to-Back Transmission =====
+ TEST 14: Back-to-Back Transmission 
   PASS: START bit = 0
   PASS: BUSY asserted at start of frame
   PASS: DATA bit correct (LSB-first order)
@@ -162,8 +162,8 @@ VCD info: dumpfile test14_back_to_back.vcd opened for output.
   PASS: READY asserted after frame
   PASS: tx sits at idle-high level the instant before next load
   PASS: tx transitions straight to new start bit with no glitch cycle
-----------------------------------------------------
+
 TOTAL PASS = 162   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test14_back_to_back.v:65: $finish called at 5410000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test14_back_to_back.v:65: $finish called at 5410000 (1ps)

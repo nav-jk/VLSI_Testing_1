@@ -39,7 +39,7 @@ module test09_done_pulse;
     initial begin
         $dumpfile("test09_done_pulse.vcd"); $dumpvars(0, test09_done_pulse);
         clk = 0;
-        $display("===== TEST 9: Done/TX-Complete Pulse =====");
+        $display(" TEST 9: Done/TX-Complete Pulse ");
         do_reset;
 
         // Directed

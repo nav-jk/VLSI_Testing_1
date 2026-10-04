@@ -1,23 +1,3 @@
-// =============================================================================
-// UART Transmitter (synthesizable)
-// -----------------------------------------------------------------------------
-// Features:
-//   - Parameterized clock-divisor based baud generation (divisor loaded at runtime)
-//   - 8 data bits, LSB first
-//   - Optional parity bit: parity_en (1=enabled), parity_odd (1=odd,0=even)
-//   - 1 stop bit
-//   - Control: load (pulse to start tx with tx_data), busy, done (1-cycle pulse),
-//              ready (tx accepts new data)
-//   - Synchronous active-high reset (rst)
-// -----------------------------------------------------------------------------
-// Protocol:
-//   Idle:  tx = 1, ready = 1, busy = 0
-//   Load:  assert load=1 with tx_data valid for 1 clk while ready=1.
-//          If busy=1, load is ignored (byte in flight is protected).
-//   Frame: START(0) -> D0..D7 (LSB first) -> [PARITY] -> STOP(1)
-//   done:  single-cycle pulse the cycle after STOP bit period completes
-// =============================================================================
-
 module uart_tx (
     input  wire        clk,
     input  wire        rst,          // synchronous active-high reset
@@ -64,8 +44,7 @@ module uart_tx (
         end else begin
             done <= 1'b0; // default: deassert, pulse only in ST_DONE
 
-            case (state)
-                // -----------------------------------------------------------
+            case (state)-
                 ST_IDLE: begin
                     tx   <= 1'b1;
                     busy <= 1'b0;
@@ -81,7 +60,6 @@ module uart_tx (
                     end
                 end
 
-                // -----------------------------------------------------------
                 ST_START: begin
                     tx <= 1'b0;
                     if (clk_cnt >= div_safe - 1) begin
@@ -93,7 +71,6 @@ module uart_tx (
                     end
                 end
 
-                // -----------------------------------------------------------
                 ST_DATA: begin
                     tx <= shift_reg[0];
                     if (clk_cnt >= div_safe - 1) begin
@@ -109,11 +86,6 @@ module uart_tx (
                         end else begin
                             shift_reg <= shift_reg >> 1;
                             bit_idx   <= bit_idx + 3'd1;
-                            // Explicitly drive the NEXT bit's value here. Without this,
-                            // "tx <= shift_reg[0]" above (evaluated with the PRE-shift
-                            // value, per NBA semantics) would re-assert the OLD bit for
-                            // one extra cycle, making every data bit after bit0 appear
-                            // one cycle late / the previous bit "stick" for one cycle.
                             tx <= shift_reg[1];
                         end
                     end else begin
@@ -121,7 +93,6 @@ module uart_tx (
                     end
                 end
 
-                // -----------------------------------------------------------
                 ST_PARITY: begin
                     tx <= parity_bit;
                     if (clk_cnt >= div_safe - 1) begin
@@ -133,7 +104,6 @@ module uart_tx (
                     end
                 end
 
-                // -----------------------------------------------------------
                 ST_STOP: begin
                     tx <= 1'b1;
                     if (clk_cnt >= div_safe - 1) begin

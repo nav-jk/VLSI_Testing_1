@@ -33,7 +33,7 @@ module test14_back_to_back;
     initial begin
         $dumpfile("test14_back_to_back.vcd"); $dumpvars(0, test14_back_to_back);
         clk = 0;
-        $display("===== TEST 14: Back-to-Back Transmission =====");
+        $display(" TEST 14: Back-to-Back Transmission ");
         do_reset;
 
         // Directed

@@ -15,7 +15,7 @@ module test11_even_parity;
     initial begin
         $dumpfile("test11_even_parity.vcd"); $dumpvars(0, test11_even_parity);
         clk = 0;
-        $display("===== TEST 11: Even Parity Correctness =====");
+        $display(" TEST 11: Even Parity Correctness ");
         do_reset;
 
         // Directed: known even/odd-popcount bytes

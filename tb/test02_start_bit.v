@@ -15,7 +15,7 @@ module test02_start_bit;
     initial begin
         $dumpfile("test02_start_bit.vcd"); $dumpvars(0, test02_start_bit);
         clk = 0;
-        $display("===== TEST 2: Start Bit Generation =====");
+        $display(" TEST 2: Start Bit Generation ");
         do_reset;
 
         // Directed: start bit = 0 for exactly `div` cycles, regardless of data value

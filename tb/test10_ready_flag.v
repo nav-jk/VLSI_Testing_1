@@ -33,7 +33,7 @@ module test10_ready_flag;
     initial begin
         $dumpfile("test10_ready_flag.vcd"); $dumpvars(0, test10_ready_flag);
         clk = 0;
-        $display("===== TEST 10: Ready-to-Load Flag =====");
+        $display(" TEST 10: Ready-to-Load Flag ");
         do_reset;
         check(ready === 1'b1, "DIRECTED: ready high immediately after reset");
 

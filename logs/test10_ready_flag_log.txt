@@ -1,5 +1,5 @@
 VCD info: dumpfile test10_ready_flag.vcd opened for output.
-===== TEST 10: Ready-to-Load Flag =====
+ TEST 10: Ready-to-Load Flag 
   PASS: DIRECTED: ready high immediately after reset
   PASS: ready high before load (idle)
   PASS: ready stays low (not accepting) while busy
@@ -433,8 +433,8 @@ VCD info: dumpfile test10_ready_flag.vcd opened for output.
   PASS: ready still low during 1-cycle DONE state
   PASS: ready returns high once frame fully completes
   PASS: CORNER: ready stays low mid-frame even after several bit periods
-----------------------------------------------------
+
 TOTAL PASS = 433   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test10_ready_flag.v:63: $finish called at 4960000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test10_ready_flag.v:63: $finish called at 4960000 (1ps)

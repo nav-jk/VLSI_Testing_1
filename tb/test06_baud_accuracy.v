@@ -38,7 +38,7 @@ module test06_baud_accuracy;
     initial begin
         $dumpfile("test06_baud_accuracy.vcd"); $dumpvars(0, test06_baud_accuracy);
         clk = 0;
-        $display("===== TEST 6: Baud Rate Accuracy =====");
+        $display(" TEST 6: Baud Rate Accuracy ");
         do_reset;
 
         // Directed: a spread of common divisor values

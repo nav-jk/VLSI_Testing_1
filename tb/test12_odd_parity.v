@@ -15,7 +15,7 @@ module test12_odd_parity;
     initial begin
         $dumpfile("test12_odd_parity.vcd"); $dumpvars(0, test12_odd_parity);
         clk = 0;
-        $display("===== TEST 12: Odd Parity Correctness =====");
+        $display(" TEST 12: Odd Parity Correctness ");
         do_reset;
 
         // Directed

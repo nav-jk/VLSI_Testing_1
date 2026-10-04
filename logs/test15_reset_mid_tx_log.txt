@@ -1,5 +1,5 @@
 VCD info: dumpfile test15_reset_mid_tx.vcd opened for output.
-===== TEST 15: Reset During Active Transmission =====
+ TEST 15: Reset During Active Transmission 
   PASS: tx forced back to idle-high immediately after reset
   PASS: busy cleared immediately after reset
   PASS: ready asserted immediately after reset
@@ -221,8 +221,8 @@ VCD info: dumpfile test15_reset_mid_tx.vcd opened for output.
   PASS: BUSY deasserted after frame
   PASS: READY asserted after frame
   PASS: CORNER: reset while already idle has no adverse effect
-----------------------------------------------------
+
 TOTAL PASS = 221   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test15_reset_mid_tx.v:89: $finish called at 8960000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test15_reset_mid_tx.v:89: $finish called at 8960000 (1ps)

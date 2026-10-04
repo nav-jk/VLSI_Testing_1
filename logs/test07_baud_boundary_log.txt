@@ -1,5 +1,5 @@
 VCD info: dumpfile test07_baud_boundary.vcd opened for output.
-===== TEST 7: Boundary Baud Divisor Values =====
+ TEST 7: Boundary Baud Divisor Values 
   PASS: START bit = 0
   PASS: BUSY asserted at start of frame
   PASS: DATA bit correct (LSB-first order)
@@ -104,8 +104,8 @@ VCD info: dumpfile test07_baud_boundary.vcd opened for output.
   PASS: STOP bit = 1
   PASS: BUSY deasserted after frame
   PASS: READY asserted after frame
-----------------------------------------------------
+
 TOTAL PASS = 104   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test07_baud_boundary.v:44: $finish called at 45510000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test07_baud_boundary.v:44: $finish called at 45510000 (1ps)

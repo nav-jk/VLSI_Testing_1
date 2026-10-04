@@ -56,7 +56,7 @@ module test13_load_while_busy;
     initial begin
         $dumpfile("test13_load_while_busy.vcd"); $dumpvars(0, test13_load_while_busy);
         clk = 0;
-        $display("===== TEST 13: Load New Data While Busy (should be ignored) =====");
+        $display(" TEST 13: Load New Data While Busy (should be ignored) ");
         do_reset;
 
         // Directed

@@ -1,5 +1,5 @@
 VCD info: dumpfile test13_load_while_busy.vcd opened for output.
-===== TEST 13: Load New Data While Busy (should be ignored) =====
+ TEST 13: Load New Data While Busy (should be ignored) 
   PASS: frame started correctly with first byte
   PASS: still busy with first frame (second load had no effect on state)
   PASS: DATA bit 1 still matches ORIGINAL byte right after spurious load
@@ -104,8 +104,8 @@ VCD info: dumpfile test13_load_while_busy.vcd opened for output.
   PASS: busy still high during 1-cycle DONE state (frame not yet corrupted)
   PASS: busy clears normally after the (unaffected) frame
   PASS: ready restored after frame
-----------------------------------------------------
+
 TOTAL PASS = 104   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test13_load_while_busy.v:83: $finish called at 6070000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test13_load_while_busy.v:83: $finish called at 6070000 (1ps)

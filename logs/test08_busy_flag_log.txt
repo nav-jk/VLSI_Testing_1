@@ -1,5 +1,5 @@
 VCD info: dumpfile test08_busy_flag.vcd opened for output.
-===== TEST 8: Busy/TX-Active Flag =====
+ TEST 8: Busy/TX-Active Flag 
   PASS: busy low before load
   PASS: busy stays high throughout the frame
   PASS: busy stays high throughout the frame
@@ -431,8 +431,8 @@ VCD info: dumpfile test08_busy_flag.vcd opened for output.
   PASS: busy stays high throughout the frame
   PASS: busy still high during the 1-cycle DONE state
   PASS: busy deasserts exactly after frame completes
-----------------------------------------------------
+
 TOTAL PASS = 431   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test08_busy_flag.v:64: $finish called at 4720000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test08_busy_flag.v:64: $finish called at 4720000 (1ps)

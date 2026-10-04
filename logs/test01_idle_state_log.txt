@@ -1,5 +1,5 @@
 VCD info: dumpfile test01_idle_state.vcd opened for output.
-===== TEST 1: Idle State =====
+ TEST 1: Idle State 
   PASS: DIRECTED: TX high immediately after reset
   PASS: DIRECTED: BUSY low after reset
   PASS: DIRECTED: READY high after reset
@@ -11,8 +11,8 @@ VCD info: dumpfile test01_idle_state.vcd opened for output.
   PASS: RANDOM: idle holds TX=1/BUSY=0 for random wait
   PASS: RANDOM: idle holds TX=1/BUSY=0 for random wait
   PASS: CORNER: busy goes high same cycle load is serviced (no idle leak)
-----------------------------------------------------
+
 TOTAL PASS = 11   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test01_idle_state.v:62: $finish called at 1700000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test01_idle_state.v:62: $finish called at 1700000 (1ps)

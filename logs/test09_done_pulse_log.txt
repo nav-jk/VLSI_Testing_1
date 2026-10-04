@@ -1,5 +1,5 @@
 VCD info: dumpfile test09_done_pulse.vcd opened for output.
-===== TEST 9: Done/TX-Complete Pulse =====
+ TEST 9: Done/TX-Complete Pulse 
   PASS: done low before load
   PASS: done stays low throughout frame transmission
   PASS: done stays low throughout frame transmission
@@ -480,8 +480,8 @@ VCD info: dumpfile test09_done_pulse.vcd opened for output.
   PASS: done pulses high exactly when frame completes
   PASS: done returns low the cycle after the pulse
   PASS: done remains low afterward (single-cycle pulse only)
-----------------------------------------------------
+
 TOTAL PASS = 480   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test09_done_pulse.v:63: $finish called at 4830000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test09_done_pulse.v:63: $finish called at 4830000 (1ps)

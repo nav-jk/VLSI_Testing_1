@@ -1,5 +1,5 @@
 VCD info: dumpfile test04_data_pattern.vcd opened for output.
-===== TEST 4: Data Pattern Integrity =====
+ TEST 4: Data Pattern Integrity 
   PASS: START bit = 0
   PASS: BUSY asserted at start of frame
   PASS: DATA bit correct (LSB-first order)
@@ -182,8 +182,8 @@ VCD info: dumpfile test04_data_pattern.vcd opened for output.
   PASS: STOP bit = 1
   PASS: BUSY deasserted after frame
   PASS: READY asserted after frame
-----------------------------------------------------
+
 TOTAL PASS = 182   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test04_data_pattern.v:52: $finish called at 7170000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test04_data_pattern.v:52: $finish called at 7170000 (1ps)

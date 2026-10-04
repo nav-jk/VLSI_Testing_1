@@ -31,7 +31,7 @@ module test03_lsb_first;
     initial begin
         $dumpfile("test03_lsb_first.vcd"); $dumpvars(0, test03_lsb_first);
         clk = 0;
-        $display("===== TEST 3: LSB-First Bit Ordering =====");
+        $display(" TEST 3: LSB-First Bit Ordering ");
         do_reset;
 
         // Directed: a single 1 walking through each bit position

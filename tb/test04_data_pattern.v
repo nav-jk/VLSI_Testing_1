@@ -23,17 +23,17 @@ module test04_data_pattern;
         $dumpfile("test04_data_pattern.vcd");
         $dumpvars(0, test04_data_pattern);
         clk = 0;
-        $display("===== TEST 4: Data Pattern Integrity =====");
+        $display(" TEST 4: Data Pattern Integrity ");
 
         do_reset;
 
-        // ---- Directed ----
+        //  Directed 
         send_and_check_frame(8'h00, 1'b0, 1'b0, 16'd4); wait_bits(16'd4, 2);
         send_and_check_frame(8'hFF, 1'b0, 1'b0, 16'd4); wait_bits(16'd4, 2);
         send_and_check_frame(8'hAA, 1'b0, 1'b0, 16'd4); wait_bits(16'd4, 2);
         send_and_check_frame(8'h55, 1'b0, 1'b0, 16'd4); wait_bits(16'd4, 2);
 
-        // ---- Random ----
+        //  Random 
         begin : rnd
             integer k;
             reg [7:0] rb;
@@ -44,7 +44,7 @@ module test04_data_pattern;
             end
         end
 
-        // ---- Corner cases: boundary single-bit patterns ----
+        //  Corner cases: boundary single-bit patterns 
         send_and_check_frame(8'h01, 1'b0, 1'b0, 16'd4); wait_bits(16'd4, 2); // only LSB set
         send_and_check_frame(8'h80, 1'b0, 1'b0, 16'd4); wait_bits(16'd4, 2); // only MSB set
 

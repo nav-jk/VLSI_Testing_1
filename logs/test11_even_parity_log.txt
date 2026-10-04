@@ -1,5 +1,5 @@
 VCD info: dumpfile test11_even_parity.vcd opened for output.
-===== TEST 11: Even Parity Correctness =====
+ TEST 11: Even Parity Correctness 
   PASS: START bit = 0
   PASS: BUSY asserted at start of frame
   PASS: DATA bit correct (LSB-first order)
@@ -196,8 +196,8 @@ VCD info: dumpfile test11_even_parity.vcd opened for output.
   PASS: STOP bit = 1
   PASS: BUSY deasserted after frame
   PASS: READY asserted after frame
-----------------------------------------------------
+
 TOTAL PASS = 196   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test11_even_parity.v:41: $finish called at 7730000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test11_even_parity.v:41: $finish called at 7730000 (1ps)

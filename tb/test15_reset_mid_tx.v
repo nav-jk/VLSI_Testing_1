@@ -48,7 +48,7 @@ module test15_reset_mid_tx;
     initial begin
         $dumpfile("test15_reset_mid_tx.vcd"); $dumpvars(0, test15_reset_mid_tx);
         clk = 0;
-        $display("===== TEST 15: Reset During Active Transmission =====");
+        $display(" TEST 15: Reset During Active Transmission ");
         do_reset;
 
         // Directed: reset during the START bit

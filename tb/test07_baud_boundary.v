@@ -15,7 +15,7 @@ module test07_baud_boundary;
     initial begin
         $dumpfile("test07_baud_boundary.vcd"); $dumpvars(0, test07_baud_boundary);
         clk = 0;
-        $display("===== TEST 7: Boundary Baud Divisor Values =====");
+        $display(" TEST 7: Boundary Baud Divisor Values ");
         do_reset;
 
         // Directed: minimum legal divisor (2) - full frame must still be correct

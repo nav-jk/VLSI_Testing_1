@@ -15,7 +15,7 @@ module test05_stop_bit;
     initial begin
         $dumpfile("test05_stop_bit.vcd"); $dumpvars(0, test05_stop_bit);
         clk = 0;
-        $display("===== TEST 5: Stop Bit Generation =====");
+        $display(" TEST 5: Stop Bit Generation ");
         do_reset;
 
         // Directed: full frame checks include stop bit already; confirm explicitly for 0xFF and 0x00

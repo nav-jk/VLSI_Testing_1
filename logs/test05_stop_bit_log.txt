@@ -1,5 +1,5 @@
 VCD info: dumpfile test05_stop_bit.vcd opened for output.
-===== TEST 5: Stop Bit Generation =====
+ TEST 5: Stop Bit Generation 
   PASS: START bit = 0
   PASS: BUSY asserted at start of frame
   PASS: DATA bit correct (LSB-first order)
@@ -35,8 +35,8 @@ VCD info: dumpfile test05_stop_bit.vcd opened for output.
   PASS: RANDOM: stop bit =1 for random data/baud
   PASS: RANDOM: stop bit =1 for random data/baud
   PASS: CORNER: stop bit correct at minimum baud_div=2
-----------------------------------------------------
+
 TOTAL PASS = 35   TOTAL FAIL = 0
 RESULT: PASS
-----------------------------------------------------
-/home/claude/uart_project/tb/test05_stop_bit.v:52: $finish called at 6550000 (1ps)
+
+/mnt/c/Users/navan/Documents/Home/NITC/Sem 7/VLSI Testing/Project/uart_tx_verification_project/tb/test05_stop_bit.v:52: $finish called at 6550000 (1ps)

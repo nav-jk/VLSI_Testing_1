@@ -36,7 +36,7 @@ module test08_busy_flag;
     initial begin
         $dumpfile("test08_busy_flag.vcd"); $dumpvars(0, test08_busy_flag);
         clk = 0;
-        $display("===== TEST 8: Busy/TX-Active Flag =====");
+        $display(" TEST 8: Busy/TX-Active Flag ");
         do_reset;
 
         // Directed
